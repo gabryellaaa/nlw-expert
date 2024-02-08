@@ -1,95 +1,96 @@
 const perguntas = [
     {
-      pergunta: "O que é JavaScript?",
+      pergunta: "Qual é a estrela mais próxima da Terra?",
       respostas: [
-        "Uma linguagem de programação para estilizar páginas da web",
-        "Uma linguagem de programação para criar páginas da web interativas",
-        "Um estilo de música popular nos anos 90",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é o operador usado para atribuição de valores em JavaScript?",
-      respostas: [
-        "=",
-        "==",
-        ":=",
+        "Alfa Centauri",
+        "Betelgeuse",
+        "Sirius",
       ],
       correta: 0
     },
     {
-      pergunta: "Qual método é usado para imprimir algo no console em JavaScript?",
+      pergunta: "Qual é o maior planeta do sistema solar?",
       respostas: [
-        "console.print()",
-        "print()",
-        "console.log()",
+        "Terra",
+        "Saturno",
+        "Júpiter",
       ],
       correta: 2
     },
     {
-      pergunta: "Qual é o símbolo usado para comentários de uma linha em JavaScript?",
+      pergunta: "Qual é a estrela mais brilhante vista da Terra?",
       respostas: [
-        "//",
-        "/* */",
-        "--",
+        "Sirius",
+        "Rigel",
+        "Sol",
+      ],
+      correta: 2
+    },
+    {
+      pergunta: "O que é um cometa?",
+      respostas: [
+        "Um tipo de estrela",
+        "Um planeta anão",
+        "Um objeto composto principalmente de gelo e poeira",
+      ],
+      correta: 2
+    },
+    {
+      pergunta: "Qual é o nome da galáxia onde está localizado o sistema solar?",
+      respostas: [
+        "Via Láctea",
+        "Andrômeda",
+        "Centaurus A",
       ],
       correta: 0
     },
     {
-      pergunta: "Qual função é usada para converter uma string em um número em JavaScript?",
+      pergunta: "O que é uma supernova?",
       respostas: [
-        "parseInt()",
-        "convertToInt()",
-        "toNumber()",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é o resultado de 10 + '5' em JavaScript?",
-      respostas: [
-        "15",
-        "105",
-        "Erro",
+        "Uma estrela recém-nascida",
+        "Uma explosão cataclísmica de uma estrela",
+        "Um planeta com alta atividade vulcânica",
       ],
       correta: 1
     },
     {
-      pergunta: "Qual é a função do operador '==' em JavaScript?",
+      pergunta: "Qual é a maior lua de Júpiter?",
       respostas: [
-        "Comparação estrita de igualdade",
-        "Comparação de igualdade",
-        "Atribuição de valores",
+        "Io",
+        "Europa",
+        "Ganímedes",
       ],
-      correta: 1
+      correta: 2
     },
     {
-      pergunta: "Qual é o resultado de '2' + 2 em JavaScript?",
+      pergunta: "Qual é o nome da primeira missão tripulada a pousar na Lua?",
       respostas: [
-        "4",
-        "22",
-        "Erro",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual palavra-chave é usada para declarar variáveis em JavaScript?",
-      respostas: [
-        "var",
-        "let",
-        "const",
+        "Apollo 11",
+        "Sputnik 1",
+        "Vostok 1",
       ],
       correta: 0
     },
     {
-      pergunta: "Qual é o operador de negação lógica em JavaScript?",
+      pergunta: "Qual é o planeta conhecido como 'planeta vermelho'?",
       respostas: [
-        "!",
-        "~",
-        "-",
+        "Terra",
+        "Vênus",
+        "Marte",
       ],
-      correta: 0
+      correta: 2
+    },
+    {
+      pergunta: "O que é um buraco negro?",
+      respostas: [
+        "Um tipo de estrela",
+        "Um fenômeno atmosférico",
+        "Um objeto com gravidade tão forte que nem a luz pode escapar dele",
+      ],
+      correta: 2
     },
   ];
+  
   
   const quiz= document.querySelector('#quiz')
   const template = document.querySelector('template')
